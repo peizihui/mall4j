@@ -8,7 +8,7 @@ RUN mkdir -p /opt/projects/mall4j
 
 WORKDIR /opt/projects/mall4j
 
-ADD ./yami-shop-admin/target/yami-shop-admin-0.0.1.jar ./
+ADD ./yami-shop-admin/target/yami-shop-admin-0.0.1.jar ./yami-shop-admin-0.0.1.jar
 
 EXPOSE 8085
 

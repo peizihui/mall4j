@@ -32,8 +32,8 @@ services:
     ports:
       - 8085:8085
 #映射路径；
-    volumes:
-      - /home/project/surviormall/mall4j:/opt/projects/mall4j
+#    volumes:
+#      - /home/project/surviormall/mall4j:/opt/projects/mall4j
     depends_on:
       - mall4j-redis
       - mall4j-mysql
